@@ -1,0 +1,34 @@
+name: proxy_actions_macos
+description: A new Flutter project.
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+  flutter: ">=2.5.0"
+
+flutter:
+  plugin:
+    implements: proxy_actions
+    platforms:
+      macos:
+        pluginClass: ProxyActionsMacosPlugin
+        dartPluginClass: ProxyActionsMacos
+
+dependencies:
+  flutter:
+    sdk: flutter
+  proxy_actions_platform_interface:
+    path: ../proxy_actions_platform_interface/
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  plugin_platform_interface: ^2.1.2
+
+
+
+
+

@@ -1,0 +1,6 @@
+module proxy_actions_ios {
+  umbrella header "proxy_actions_ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,27 @@
+name: proxy_actions_example
+description: Demonstrates how to use the quick_actions plugin.
+publish_to: none
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  proxy_actions:
+    path: ../
+
+dev_dependencies:
+  espresso: ^0.2.0
+  flutter_driver:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

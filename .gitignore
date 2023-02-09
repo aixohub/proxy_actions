@@ -19,3 +19,20 @@ doc/api/
 *.js_
 *.js.deps
 *.js.map
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### VS Code ###
+.vscode/
+.history/
+
+# System related
+*.DS_Store
+Thumbs.db
